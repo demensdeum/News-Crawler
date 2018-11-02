@@ -51,6 +51,9 @@ class InteractiveURLParser {
 
 extension InteractiveURLParser: DataLoaderDelegate {
     func dataLoader(loader: DataLoader, didLoad data: Data) {
+        
+        guard data.count > 0 else { return }
+        
         dataChunk += data
         
         guard let decodedString = DataStringDecoder.decode(data: data) else {
