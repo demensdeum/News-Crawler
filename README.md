@@ -1,6 +1,6 @@
 # News Crawler
 
-Big files text search.
-Google news (by default) text crawler for iOS.
-Search text while downloading file.
-Even big files supported.
+Big files text search.<br>
+Google news (by default) text crawler for iOS.<br>
+Search text while downloading file.<br>
+Even big files supported.<br>
