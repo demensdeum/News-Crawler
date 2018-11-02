@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  TraderTestApp
+
+  Created by Ilia Prokhorov on 16/10/2018.
+  Copyright © 2018 Ilia Prokhorov. All rights reserved.
+*/
+
+"FIND_BUTTON_TITLE" = "Find";
+"PLACEHOLDER_TEXT" = "Please enter url and search string (regex), or tap here to launch test";
+"URL_PLACEHOLDER" = "URL address (http://www.lib.ru/KING/r_roknroll.txt)";
+"SEARCH_PLACEHOLDER" = "Search text (regex)";
+"SEARCH_VALIDATION_ERROR" = "Enter search text";
+"URL_VALIDATION_ERROR" = "Enter correct URL";
+"EMPTY_TEXT_SEARCH_ERROR" = "Incorrect search text";
+"INCORRECT_TEXT_SEARCH_ERROR" = "Incorrect search text";
+"DECODE_TEXT_ERROR" = "Incorrect data stream (unknown encoding)";

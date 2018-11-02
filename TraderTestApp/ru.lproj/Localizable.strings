@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  TraderTestApp
+
+  Created by Ilia Prokhorov on 16/10/2018.
+  Copyright © 2018 Ilia Prokhorov. All rights reserved.
+*/
+
+"FIND_BUTTON_TITLE" = "Искать";
+"PLACEHOLDER_TEXT" = "Введите URL и поисковую строку (regex) или нажмите здесь для запуска теста";
+"URL_PLACEHOLDER" = "URL адрес (http://www.lib.ru/KING/r_roknroll.txt)";
+"SEARCH_PLACEHOLDER" = "Текст поиска (regex)";
+"SEARCH_VALIDATION_ERROR" = "Введите строку поиска";
+"URL_VALIDATION_ERROR" = "Введите корректный адрес";
+"EMPTY_TEXT_SEARCH_ERROR" = "Некорректный текст поиска";
+"INCORRECT_TEXT_SEARCH_ERROR" = "Некорректный текст поиска";
+"DECODE_TEXT_ERROR" = "Ошибка декодинга (некорректная кодировка)";
