@@ -43,7 +43,7 @@
 		3014D01C217538DE00714EE0 /* ResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
 		3014D01E2175394200714EE0 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
 		303A0F4821767F9400BC9BA2 /* OutputStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputStream.swift; sourceTree = "<group>"; };
-		304EBF9E2174D8730033E226 /* TraderTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraderTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304EBF9E2174D8730033E226 /* NewsCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304EBFA12174D8730033E226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		304EBFA32174D8730033E226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		304EBFA62174D8730033E226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		304EBF952174D8730033E226 = {
 			isa = PBXGroup;
 			children = (
-				304EBFA02174D8730033E226 /* TraderTestApp */,
+				304EBFA02174D8730033E226 /* NewsCrawler */,
 				304EBF9F2174D8730033E226 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,12 +110,12 @@
 		304EBF9F2174D8730033E226 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				304EBF9E2174D8730033E226 /* TraderTestApp.app */,
+				304EBF9E2174D8730033E226 /* NewsCrawler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		304EBFA02174D8730033E226 /* TraderTestApp */ = {
+		304EBFA02174D8730033E226 /* NewsCrawler */ = {
 			isa = PBXGroup;
 			children = (
 				30E6B649217503ED00971366 /* src */,
@@ -128,7 +128,7 @@
 				304EBFAD2174D8740033E226 /* Info.plist */,
 				30E69D7E2175F92F000B354F /* Localizable.strings */,
 			);
-			path = TraderTestApp;
+			path = NewsCrawler;
 			sourceTree = "<group>";
 		};
 		304EBFB32174E3680033E226 /* DataLoader */ = {
@@ -232,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		304EBF9D2174D8730033E226 /* TraderTestApp */ = {
+		304EBF9D2174D8730033E226 /* NewsCrawler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 304EBFB02174D8740033E226 /* Build configuration list for PBXNativeTarget "TraderTestApp" */;
+			buildConfigurationList = 304EBFB02174D8740033E226 /* Build configuration list for PBXNativeTarget "NewsCrawler" */;
 			buildPhases = (
 				304EBF9A2174D8730033E226 /* Sources */,
 				304EBF9B2174D8730033E226 /* Frameworks */,
@@ -244,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = TraderTestApp;
+			name = NewsCrawler;
 			productName = TraderTestApp;
-			productReference = 304EBF9E2174D8730033E226 /* TraderTestApp.app */;
+			productReference = 304EBF9E2174D8730033E226 /* NewsCrawler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 304EBF992174D8730033E226 /* Build configuration list for PBXProject "TraderTestApp" */;
+			buildConfigurationList = 304EBF992174D8730033E226 /* Build configuration list for PBXProject "NewsCrawler" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -278,7 +278,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				304EBF9D2174D8730033E226 /* TraderTestApp */,
+				304EBF9D2174D8730033E226 /* NewsCrawler */,
 			);
 		};
 /* End PBXProject section */
@@ -483,7 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55833JK329;
-				INFOPLIST_FILE = TraderTestApp/Info.plist;
+				INFOPLIST_FILE = NewsCrawler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -502,7 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55833JK329;
-				INFOPLIST_FILE = TraderTestApp/Info.plist;
+				INFOPLIST_FILE = NewsCrawler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -518,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		304EBF992174D8730033E226 /* Build configuration list for PBXProject "TraderTestApp" */ = {
+		304EBF992174D8730033E226 /* Build configuration list for PBXProject "NewsCrawler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304EBFAE2174D8740033E226 /* Debug */,
@@ -527,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		304EBFB02174D8740033E226 /* Build configuration list for PBXNativeTarget "TraderTestApp" */ = {
+		304EBFB02174D8740033E226 /* Build configuration list for PBXNativeTarget "NewsCrawler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304EBFB12174D8740033E226 /* Debug */,

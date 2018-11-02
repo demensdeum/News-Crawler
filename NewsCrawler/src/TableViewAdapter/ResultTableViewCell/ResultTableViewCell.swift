@@ -16,7 +16,9 @@ class ResultTableViewCell: UITableViewCell {
     
     public func fill(resultItem: TextParserResultItem) {
     
-        self.label?.text = resultItem.text
+        guard let data = resultItem.text.data(using: String.Encoding.unicode) else { return }
+        
+        try? self.label?.attributedText = NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil)
     
     }
     

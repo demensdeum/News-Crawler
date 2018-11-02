@@ -58,7 +58,7 @@ class Presenter: NSObject {
     
     public func didPressRunTest() {
         fileURLTextField?.text = "https://news.google.com"
-        regexpTextField?.text = "war.*"
+        regexpTextField?.text = "fear.*"
         
         performSearchFind()
     }
@@ -96,7 +96,7 @@ class Presenter: NSObject {
             return
         }
         
-        guard var regexp = regexpTextField?.text, regexp.count > 0 else {
+        guard let regexp = regexpTextField?.text, regexp.count > 0 else {
             
             viewController?.showAlert(NSLocalizedString("SEARCH_VALIDATION_ERROR", comment: ""))
             regexpTextField?.becomeFirstResponder()

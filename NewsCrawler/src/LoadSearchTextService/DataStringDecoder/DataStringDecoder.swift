@@ -10,7 +10,7 @@ import Foundation
 
 class DataStringDecoder {
     
-    private static let encodings: [String.Encoding] = [.windowsCP1252, .windowsCP1251, .utf8]
+    private static let encodings: [String.Encoding] = [.utf8, .windowsCP1252, .windowsCP1251]
     
     public static func decode(data: Data) -> String? {
         for encoding in encodings {
